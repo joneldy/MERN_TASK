@@ -1,0 +1,41 @@
+.task__list {
+  width: 716px;
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 10px;
+  height: 50px;
+
+  .title {
+    font-size: 14px;
+  }
+  .form-input {
+    display: inline-block;
+    position: absolute;
+    top: 7px;
+  }
+  .title {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  .edit {
+    margin-left: auto;
+    margin-right: 5px;
+  }
+  .no-margin {
+    margin: 0 !important;
+  }
+
+  .checkbox-container {
+    position: relative;
+    label {
+      margin-left: 20px;
+    }
+  }
+}
